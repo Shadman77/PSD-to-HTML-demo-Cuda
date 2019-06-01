@@ -1,0 +1,397 @@
+/*General*/
+body{
+    overflow-x: hidden;
+}
+a:focus{
+    outline: none;
+}
+.sectionContainer {
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    color: white;
+    text-align: center;
+}
+
+hr {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 8vw;
+    opacity: 0.3;
+}
+.container-fluid{
+    padding: 0px;
+}
+
+.sectionDescription {
+    margin-bottom: 0px;
+}
+
+.sectionLink {
+    display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.sectionLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.sectionLink:active {
+    opacity: 0.8;
+}
+
+
+.sectionHeading {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+/*Cards*/
+.customCard, .customCardNoHover {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 25px;
+}
+/*
+.customCard:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+*/
+
+.customCard>a, .customCardNoHover>a {
+    margin-left: 5px;
+}
+
+.card-body {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.cardTitle {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.cardText {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: #87509C;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+
+.custom-nav-link {
+    display: inline-block;
+    text-align: center;
+
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    width: 80px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.custom-nav-link:hover {
+    text-decoration: none;
+    color: white;
+}
+.custom-nav-link::before{
+    background: #643a79;
+}
+.custom-nav-link:hover, .custom-nav-link:focus, .custom-nav-link:active{
+    color: white;
+}
+
+.custom-nav-link-active {
+    background-color: #643a79;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+/*Welcome*/
+.welcomeHeading {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.welcomeSectionLink {
+    background-color: #eb7d4b;
+    border: 2px solid #eb7d4b;
+    border-bottom: 2px solid #c86a40;
+}
+
+/*Skills*/
+.customCardSkills {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.skillsProgress {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/*Our Portfolio*/
+.portfolioSubLinkContainer {
+    margin-top: 20px;
+}
+
+.portfolioSubLink {
+    display: inline-block;
+    width: 100px;
+    background-color: #ebc985;
+    color: black;
+    padding: 5px 15px 5px 15px;
+    margin: 10px 5px 0px 5px;
+}
+
+.portfolioSubLink:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.portfolioSubLinkActive {
+    background-color: white;
+}
+
+.portfolioLink {
+    background-color: #17c2a4;
+    border: 2px solid #17c2a4;
+    border-bottom: 2px solid #14a58c;
+}
+
+/*What people say about us*/
+.customCardTestimony {
+    padding: 20px 30px 0px 30px;
+    text-align: justify;
+}
+.testimonyImg{
+    width: 100%;
+    height: auto;
+}
+
+/*Form*/
+
+.input-required {
+    position: relative;
+    display: block;
+}
+
+.input-required>label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-weight: 300;
+    z-index: 100;
+}
+.input-required>input, .input-required>textarea{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+    background-color: #273a71;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-required .hide {
+    display: none;
+}
+
+.first-letter {
+    color: #ffffff;
+}
+
+.second-letter {
+    color: red;
+}
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 200px;
+}
+#emailInput2{
+    display: none;
+}
+#textArea{
+    margin-top: 80px;
+}
+input, select, textarea{
+    color: #ffffff;
+}
+
+textarea:focus, input:focus {
+    color: #ffffff;
+}
+.formButton{
+    background-color: #30bae7;
+    border: 2px solid #30bae7;
+    border-bottom: 2px solid #299ec5;
+}
+
+/*Footer*/
+.footerLink {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0px 25px 0px 25px;
+}
+
+.footerLink:hover {
+    text-decoration: none;
+    color: #30bae7;
+}
+
+/*---Media Queries --*/
+
+@media (max-width: 1200px) {
+
+    /*lg*/
+    /*Welcome*/
+    .welcomeHeading{
+        font-size: 35px;
+    }
+    /*Navbar*/
+    .navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    /*md*/
+    /*General*/
+    .sectionContainer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /*navbar*/
+    .navbar{
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .navbar-nav{
+        margin-top: 20px; 
+    }
+    .custom-nav-link{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    /*Welcome*/
+    .welcomeHeading{
+        font-size: 30px;
+    }
+    /*Testimony*/
+    .customCardTestimony{
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+    .testimonyImg{
+        width: 60%;
+        /*max-width: 50vw;*/
+        margin-left: auto;
+        /*margin-right: auto;*/
+        height: auto;
+        margin-bottom: 20px;
+    }
+    /*Form*/
+    #textArea{
+        margin-top: 120px;
+    }
+    #emailInput2{
+        display: block;
+    }
+    #emailInput1{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    /*sm*/
+    /*navbar*/
+    .navbar{
+        padding-bottom: 0px;
+    }
+    /*Welcome*/
+    .welcomeHeading{
+        font-size: 26px;
+    }
+    /*Testimony*/
+    .customCardTestimony{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .testimonyImg{
+        max-width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    /*Portfolio*/
+    .portfolioSubLinkContainer {
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    /*xs*/
+    /*Skill*/
+    .skillsProgress{
+        width: 40vw;
+    }
+    .customCardSkills {
+        margin-top: 20px;
+    }
+    /*Testimony*/
+    .testimonyImg{
+        width: 60%;
+        max-width: 30vw;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
